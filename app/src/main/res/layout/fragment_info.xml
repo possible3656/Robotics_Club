@@ -1,15 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="200dp"
+    android:layout_width="250dp"
     android:layout_height="match_parent"
     tools:context=".infoFragment"
-    android:background="@color/colorPrimary">
+    android:background="#343a40"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/logo"
+    android:layout_alignParentTop="true"
+        android:id="@+id/ImageView"
+
+
+    />
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView"
+        android:text="@string/website_developed_by"
+        android:textColor="#ffff"
+        android:layout_marginStart="10dp"
+        android:textSize="25sp"
+        android:id="@+id/developedBy"
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/developedBy"
+        android:text="@string/prakash_panwar"
+        android:textColor="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:id="@+id/prakasah"
 
-</FrameLayout>
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prakasah"
+        android:text="@string/p_amp_ie_2016_2020"
+        android:textColor="#fff"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/branch"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/branch"
+        android:text="@string/shrinit_goyal"
+        android:textColor="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:id="@+id/shrinit"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shrinit"
+        android:text="@string/cs_2018_2022"
+        android:textColor="#fff"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:id="@+id/branchcs"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/branchcs"
+        android:text="@string/android_view_by"
+        android:textColor="#ffff"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"
+        android:id="@+id/androidViewBy"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/androidViewBy"
+        android:text="@string/sambhav_jain"
+        android:textColor="#fff"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:textSize="22sp"
+        android:id="@+id/sambhav"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sambhav"
+        android:text="@string/ee_2018_2022"
+        android:textColor="#fff"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+
+
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="© 2020 Copyright: Robo club"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="10dp"
+    android:textColor="#fff"
+    android:textSize="15sp"
+    />
+
+
+
+
+</RelativeLayout>

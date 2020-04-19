@@ -3,4 +3,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="website_developed_by">Website developed and designed by :</string>
+    <string name="cs_2018_2022">(CS, 2018-2022)</string>
+    <string name="shrinit_goyal"><![CDATA[->Shrinit Goyal]]></string>
+    <string name="prakash_panwar"><![CDATA[->Prakash panwar]]></string>
+    <string name="p_amp_ie_2016_2020"><![CDATA[(P&IE, 2016-2020)]]></string>
+    <string name="android_view_by">App Developed by :</string>
+    <string name="sambhav_jain"><![CDATA[->Sambhav Jain]]></string>
+    <string name="ee_2018_2022">(EE, 2018-2022)</string>
 </resources>
