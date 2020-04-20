@@ -128,6 +128,9 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
                if (diffX < 0) {
                   infoFragment infoFragment = new infoFragment();
                    FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction()
+                           .setCustomAnimations(R.anim.enter_right_to_left,R.anim.exit_left_to_right
+
+                                   )
                            .add(R.id.mainContainer, infoFragment, null);
 
                    fragmentTransaction.commit();
